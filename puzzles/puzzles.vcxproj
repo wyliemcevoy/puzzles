@@ -134,6 +134,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="double_stack_queue.h" />
     <ClInclude Include="MajorityElement.h" />
   </ItemGroup>
   <ItemGroup>
