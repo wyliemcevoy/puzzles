@@ -24,7 +24,7 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MajorityElementTest.h">
+    <ClInclude Include="double_stack_queue_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,7 +35,13 @@
     <ClCompile Include="puzzles_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MajorityElementTest.cpp">
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="double_stack_queue_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -137,9 +137,6 @@
     <ClInclude Include="double_stack_queue.h" />
     <ClInclude Include="MajorityElement.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="MajorityElement.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>
