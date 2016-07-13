@@ -2,13 +2,6 @@
 #include "gtest/gtest.h"
 #include "double_stack_queue.h"
 
-class MajorityElementTest : public ::testing::Test
-{
-public:
-	MajorityElementTest();
-	~MajorityElementTest();
-};
-
 
 
 class DoubleStackQueueTest : public ::testing::Test

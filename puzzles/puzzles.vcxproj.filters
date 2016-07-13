@@ -18,11 +18,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MajorityElement.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="double_stack_queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="majority_element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

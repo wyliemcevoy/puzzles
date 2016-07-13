@@ -27,6 +27,9 @@
     <ClInclude Include="double_stack_queue_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="majority_element_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="double_stack_queue_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="majority_element_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

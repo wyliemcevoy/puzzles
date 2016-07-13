@@ -135,7 +135,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="double_stack_queue.h" />
-    <ClInclude Include="MajorityElement.h" />
+    <ClInclude Include="majority_element.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
