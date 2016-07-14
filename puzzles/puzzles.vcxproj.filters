@@ -24,9 +24,12 @@
     <ClInclude Include="majority_element.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="kadane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="kadane.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
