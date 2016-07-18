@@ -27,9 +27,15 @@
     <ClInclude Include="kadane.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="switch_and_bulb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="kadane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="switch_and_bulb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

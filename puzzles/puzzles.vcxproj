@@ -137,9 +137,11 @@
     <ClInclude Include="double_stack_queue.h" />
     <ClInclude Include="kadane.h" />
     <ClInclude Include="majority_element.h" />
+    <ClInclude Include="switch_and_bulb.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="kadane.cpp" />
+    <ClCompile Include="switch_and_bulb.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
