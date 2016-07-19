@@ -76,9 +76,9 @@ namespace puzzles
 
 
 	/** /brief Finds the mapping of switches to lights
-	* Recursive divide and conquer imp
-	* @param The house to be 
-	* @return An array with the propety that the ith switch has the index of the room.
+	* Recursive divide and conquer to achive O(log(n))
+	* @param The house contiaining the lights
+	* @return An array with the propety that the ith index contains the room number that switch controls.
 	*/
 	template<int size>
 	std::array<int, size> DetermineSwitchMap(House<size> house)
